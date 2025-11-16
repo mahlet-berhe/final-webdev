@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahlet's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+<script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  
+  <!-- Loading Animation -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <h1>Mahlet's Portfolio</h1>
+    <select id="themeSwitcher" aria-label="Theme switcher">
+      <option value="light">🌞 Light</option>
+      <option value="dark">🌙 Dark</option>
+      <option value="sunset">🌅 Sunset</option>
+    </select>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-image">
+          <img src="images/mahlet.jpg" alt="Mahlet smiling at the camera" />
+        </div>
+          <h2>Hi, I'm Mahlet 👩‍💻</h2>
+          <p>
+            A passionate web developer based in Addis Ababa, Ethiopia. I specialize in building responsive, user-friendly websites with clean code and creative design. Whether it's a sleek portfolio, a dynamic web app, or a storytelling blog — I bring ideas to life through code.
+          </p>
+          <p>
+            Welcome to my digital space where creativity meets functionality. Scroll down to explore my work, learn more about my journey, and connect with me!
+          </p>
+          <a href="projects.html">
+            <button>View My Projects</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="fade-in">
+      <h2>What I Do</h2>
+      <ul class="skills-list">
+        <li><strong>HTML5 & CSS3</strong> – Semantic, accessible, and responsive design</li>
+        <li><strong>JavaScript</strong> – Interactivity, animations, and dynamic content</li>
+        <li><strong>UI/UX Design</strong> – Clean layouts and user-centered experiences</li>
+        <li><strong>Version Control</strong> – Git & GitHub for collaboration and deployment</li>
+      </ul>
+    </section>
+
+    <section class="fade-in">
+      <h2>Why I Love Web Development</h2>
+      <p>
+        For me, web development is more than just writing code — it's about creating experiences. I love the challenge of solving problems, the joy of seeing a design come to life, and the satisfaction of building something that others can use and enjoy. Every project is a new opportunity to learn, grow, and express creativity through technology.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mahlet. Built with 💜 and a lot of coffee.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
